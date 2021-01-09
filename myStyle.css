@@ -1,6 +1,8 @@
+html, body, .grid-container { height: 100%; margin: 0; }
+
 .grid-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
   grid-template-rows: 1fr 1fr 1fr;
   gap: 1em 1em;
   grid-template-areas:
@@ -9,10 +11,12 @@
     "left-side Middle-Block Middle-Block right-side";
 }
 
-.Top-Block { grid-area: Top-Block; }
+.Top-Block { grid-area: Top-Block; background-color: blue; }
 
-.Middle-Block { grid-area: Middle-Block; }
+.Middle-Block { grid-area: Middle-Block; background-color: pink; }
 
-.left-side { grid-area: left-side; }
+.left-side { grid-area: left-side; background-color: green;}
 
-.right-side { grid-area: right-side; }
+.right-side { grid-area: right-side; background-color: yellow; }
+
+
