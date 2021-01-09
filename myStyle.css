@@ -1,13 +1,18 @@
-body {
-  background-color: lightblue;
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 1em 1em;
+  grid-template-areas:
+    "Top-Block Top-Block Top-Block Top-Block"
+    "left-side Middle-Block Middle-Block right-side"
+    "left-side Middle-Block Middle-Block right-side";
 }
 
-h1 {
-  color: navy;
-  margin-left: 20px;
-}
+.Top-Block { grid-area: Top-Block; }
 
+.Middle-Block { grid-area: Middle-Block; }
 
-.container {
-  display: grid | inline-grid;
-}
+.left-side { grid-area: left-side; }
+
+.right-side { grid-area: right-side; }
