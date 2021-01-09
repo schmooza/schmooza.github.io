@@ -24,7 +24,7 @@ body,
 .Middle-Block {
   grid-area: Middle-Block;
   background-color: pink;
-  background-image:url("/images/difference.jpg");
+
 }
 
 .left-side {
