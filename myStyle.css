@@ -24,7 +24,7 @@ body,
 .Middle-Block {
   grid-area: Middle-Block;
   background-color: pink;
-
+  
 }
 
 .left-side {
@@ -35,4 +35,12 @@ body,
 .right-side {
   grid-area: right-side;
   background-color: yellow;
+}
+
+
+/* This makes images fit into boxes */
+.contain {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
 }
