@@ -5,6 +5,11 @@ body,
   margin: 0;
 }
 
+h1 {
+  font-family: 'Yusei Magic', sans-serif;
+  
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -69,3 +74,7 @@ li a {
 li a:hover {
   background-color: #111;
 }
+
+
+/* fancyFonts */
+
