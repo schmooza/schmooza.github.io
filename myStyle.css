@@ -24,12 +24,13 @@ h1 {
 .Top-Block {
   grid-area: Top-Block;
   background-color: blue;
+  background-image: url(/images/frog.jpg)
 }
 
 .Middle-Block {
   grid-area: Middle-Block;
   background-color: pink;
-  background-image: url("difference.jpg");
+
 }
 
 .left-side {
